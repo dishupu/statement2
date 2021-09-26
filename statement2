@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	printf("Here's Our Menu!\n 1.Pizza:Rs.200\n 2.Veg Burger:Rs.90\n 3.White Sauce Pasta:Rs.50\n 4.Red Sauce Pasta:Rs.60\n 5.Cheese Grilled Sandwich:Rs40\n");
+	int choice=0;
+	scanf("%d", &choice);
+
+	switch(choice)
+	{
+		case 1:
+			printf("You picked Pizza. It'll be delivered Soon :)");
+			break;
+		case 2:
+			printf("You picked Veg Burger. It'll be delivered Soon :)");
+			break;
+		case 3:
+			printf("You picked White Sauce Pasta. It'll be delivered Soon :)");
+			break;
+		case 4:
+			printf("You picked Red Sauce Pasta. It'll be delivered Soon :)");
+			break;
+		case 5:	
+		    printf("You picked Cheese Grilled Sandwich. It'll be delivered Soon :)");
+		    break;
+        default : printf("Invalid Choice");
+	     	break; 
+	}         
